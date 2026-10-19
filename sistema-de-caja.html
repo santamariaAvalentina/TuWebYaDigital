@@ -1,0 +1,385 @@
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Sistema de Caja TuWebYa: registrá movimientos, controlá los totales y enviá el cierre diario por WhatsApp."
+    />
+    <meta name="theme-color" content="#07111f" />
+    <title>Sistema de Caja | TuWebYa</title>
+
+    <link rel="icon" href="assets/images/favicon.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script
+      src="assets/js/config.js"
+      data-whatsapp-config
+      data-number=""
+      defer
+    ></script>
+    <script src="assets/js/main.js" defer></script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="TuWebYa, inicio">
+          <img
+            src="assets/images/logo.png"
+            alt="Logo de TuWebYa"
+            class="brand-mark"
+          />
+          <span class="brand-copy">
+            <strong>TuWebYa</strong>
+            <small>Dejá tu Huella Digital</small>
+          </span>
+        </a>
+
+        <a class="text-link" href="index.html">
+          ← Volver a TuWebYa
+        </a>
+      </div>
+    </header>
+
+    <main id="contenido">
+      <section class="caja-hero section">
+        <div class="container caja-hero-grid">
+          <div class="caja-hero-copy">
+            <p class="eyebrow">
+              <span class="eyebrow-line"></span>
+              Una forma práctica de controlar tu negocio
+            </p>
+
+            <h1>
+              Tu caja diaria,
+              <span>más simple.</span>
+            </h1>
+
+            <p class="caja-lead">
+              Registrá ventas, sueldos y gastos. Controlá los movimientos
+              de tu negocio y cerrá el día con un resumen listo para enviar
+              por WhatsApp.
+            </p>
+
+            <div class="hero-actions">
+              <a
+                class="button button-primary"
+                data-whatsapp
+                data-service="Sistema de Caja TuWebYa"
+                href="#precios"
+              >
+                Consultar por el sistema →
+              </a>
+
+              <a class="text-link" href="#funciones">
+                Conocer las funciones ↓
+              </a>
+            </div>
+
+            <p class="hero-note">
+              Simple, práctico y pensado para el día a día.
+            </p>
+          </div>
+
+          <div class="caja-preview">
+            <div class="caja-preview-glow"></div>
+
+            <div class="caja-window">
+              <div class="caja-window-header">
+                <span class="caja-window-dot"></span>
+                <span class="caja-window-dot"></span>
+                <span class="caja-window-dot"></span>
+                <span class="caja-window-title">Sistema de Caja</span>
+              </div>
+
+              <div class="caja-window-body">
+                <p class="caja-preview-label">RESUMEN DE CAJA</p>
+                <h2>Tu día, bajo control</h2>
+
+                <div class="caja-preview-total">
+                  <span>Saldo de caja</span>
+                  <strong>Controlá tus totales</strong>
+                  <small>Según los movimientos registrados</small>
+                </div>
+
+                <div class="caja-preview-movements">
+                  <div>
+                    <span class="caja-movement-icon">＋</span>
+                    <span>
+                      <strong>Ventas</strong>
+                      <small>Ingresos registrados</small>
+                    </span>
+                  </div>
+
+                  <div>
+                    <span class="caja-movement-icon expense">−</span>
+                    <span>
+                      <strong>Gastos y sueldos</strong>
+                      <small>Egresos registrados</small>
+                    </span>
+                  </div>
+                </div>
+
+                <div class="caja-preview-footer">
+                  <span>✓</span>
+                  Resumen para el cierre diario
+                </div>
+              </div>
+            </div>
+
+            <p class="caja-preview-note">
+              Una vista ilustrativa del sistema.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section caja-functions" id="funciones">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">
+                <span class="eyebrow-line"></span>
+                ¿Qué podés hacer?
+              </p>
+              <h2>Todo lo esencial para tu caja diaria</h2>
+            </div>
+
+            <p>
+              Registrá tus movimientos y dejá que el sistema haga los cálculos.
+            </p>
+          </div>
+
+          <div class="caja-function-grid">
+            <article class="caja-function-card">
+              <span class="caja-function-icon">↗</span>
+              <h3>Apertura de caja</h3>
+              <p>
+                Ingresá el efectivo inicial y el monto inicial de las
+                transferencias.
+              </p>
+            </article>
+
+            <article class="caja-function-card">
+              <span class="caja-function-icon">＋</span>
+              <h3>Registro de movimientos</h3>
+              <p>
+                Anotá ventas, sueldos y gastos con su descripción y monto.
+              </p>
+            </article>
+
+            <article class="caja-function-card">
+              <span class="caja-function-icon">▤</span>
+              <h3>Medios de pago</h3>
+              <p>
+                Indicá si cada movimiento corresponde a efectivo, débito,
+                crédito o QR.
+              </p>
+            </article>
+
+            <article class="caja-function-card">
+              <span class="caja-function-icon">∑</span>
+              <h3>Cálculos automáticos</h3>
+              <p>
+                Consultá los totales y el saldo final según los movimientos
+                registrados.
+              </p>
+            </article>
+
+            <article class="caja-function-card">
+              <span class="caja-function-icon">✓</span>
+              <h3>Cierre del día</h3>
+              <p>
+                Cerrá la jornada y obtené un resumen de los movimientos de caja.
+              </p>
+            </article>
+
+            <article class="caja-function-card">
+              <span class="caja-function-icon">↗</span>
+              <h3>Resumen por WhatsApp</h3>
+              <p>
+                Enviá el resumen del cierre al número de WhatsApp que
+                configures.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section caja-how">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">
+                <span class="eyebrow-line"></span>
+                Fácil de usar
+              </p>
+              <h2>Tu jornada, paso a paso</h2>
+            </div>
+          </div>
+
+          <div class="caja-steps">
+            <article class="caja-step">
+              <span>01</span>
+              <h3>Abrí la caja</h3>
+              <p>Registrá los montos iniciales para comenzar la jornada.</p>
+            </article>
+
+            <article class="caja-step">
+              <span>02</span>
+              <h3>Anotá los movimientos</h3>
+              <p>Ingresá cada venta, gasto o sueldo con su monto y medio de pago.</p>
+            </article>
+
+            <article class="caja-step">
+              <span>03</span>
+              <h3>Cerrá y enviá</h3>
+              <p>Consultá el resultado del día y compartí el resumen por WhatsApp.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section caja-pricing" id="precios">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">
+                <span class="eyebrow-line"></span>
+                Elegí tu opción
+              </p>
+              <h2>Un sistema, dos alternativas</h2>
+            </div>
+
+            <p>
+              Elegí la versión que mejor se adapte a tu negocio.
+            </p>
+          </div>
+
+          <div class="caja-pricing-grid">
+            <article class="caja-price-card">
+              <p class="caja-price-label">VERSIÓN BÁSICA</p>
+              <h3>Sistema de Caja</h3>
+              <p class="caja-price-description">
+                Para empezar a organizar tu caja diaria.
+              </p>
+
+              <p class="caja-price">
+                <span>$</span>50.000
+              </p>
+              <p class="caja-price-note">Pago único</p>
+
+              <ul>
+                <li>✓ Apertura y cierre de caja</li>
+                <li>✓ Registro de ventas, sueldos y gastos</li>
+                <li>✓ Registro de medios de pago</li>
+                <li>✓ Cálculo automático de totales</li>
+                <li>✓ Resumen de cierre por WhatsApp</li>
+              </ul>
+
+              <a
+                class="button button-secondary"
+                data-whatsapp
+                data-service="Sistema de Caja TuWebYa versión básica de $50.000"
+                href="#precios"
+              >
+                Consultar versión básica →
+              </a>
+            </article>
+
+            <article class="caja-price-card caja-price-featured">
+              <span class="caja-price-badge">Personalizado</span>
+              <p class="caja-price-label">VERSIÓN PERSONALIZADA</p>
+              <h3>Tu caja, con tu identidad</h3>
+              <p class="caja-price-description">
+                La misma herramienta, adaptada visualmente a tu negocio.
+              </p>
+
+              <p class="caja-price">
+                <span>$</span>70.000
+              </p>
+              <p class="caja-price-note">Pago único</p>
+
+              <ul>
+                <li>✓ Todas las funciones de la versión básica</li>
+                <li>✓ Colores personalizados</li>
+                <li>✓ Tu logo en el sistema</li>
+                <li>✓ Presentación adaptada a tu negocio</li>
+              </ul>
+
+              <a
+                class="button button-primary"
+                data-whatsapp
+                data-service="Sistema de Caja TuWebYa personalizado de $70.000"
+                href="#precios"
+              >
+                Consultar versión personalizada →
+              </a>
+            </article>
+          </div>
+
+          <p class="caja-pricing-footnote">
+            Consultanos para conocer los detalles de la entrega y puesta en marcha.
+          </p>
+        </div>
+      </section>
+
+      <section class="section caja-final-cta">
+        <div class="container">
+          <div class="contact-panel">
+            <div>
+              <p class="eyebrow">
+                <span class="eyebrow-line"></span>
+                ¿Tenés un negocio?
+              </p>
+              <h2>Empezá a organizar tu caja diaria.</h2>
+              <p>
+                Escribinos y te contamos cómo funciona el Sistema de Caja
+                TuWebYa.
+              </p>
+            </div>
+
+            <a
+              class="button button-primary"
+              data-whatsapp
+              data-service="Sistema de Caja TuWebYa"
+              href="#precios"
+            >
+              Consultar por WhatsApp →
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a class="brand footer-brand" href="index.html">
+          <img src="assets/images/logo.png" alt="" class="brand-mark" />
+          <span class="brand-copy">
+            <strong>TuWebYa</strong>
+            <small>Dejá tu Huella Digital</small>
+          </span>
+        </a>
+
+        <p>Tu idea merece un lugar en internet.</p>
+        <a href="#" class="back-top">Volver arriba ↑</a>
+      </div>
+
+      <div class="container footer-bottom">
+        <span>© <span id="year"></span> TuWebYa</span>
+        <span>Diseño web para negocios reales.</span>
+      </div>
+    </footer>
+  </body>
+</html>
